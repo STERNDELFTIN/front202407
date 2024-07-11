@@ -4,29 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>호텔</title>
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./main.css">
 </head>
 <body>
+    <nav class="test1">
+        <ul>
+            <li><a href="./login.html">로그인</a></li>
+            <li><a href="./create_account.html">회원가입</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">메뉴</a>
+                <div class="dropdown-menu">
+                  <a href="#">menu 1</a>
+                  <a href="#">menu 2</a>
+                  <a href="#">menu 3</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
     <header>
-        <div class="test1">
-            <h1>웹페이지</h1>
+        <div class="title">
+            <h1>웹페이지 제목</h1>
         </div>
     </header>
 
     <nav>
-        <div class="test2">
-            <ul>
-                <li><a href="#login">로그인</a></li>
-                <li><a href="./create_account.html">회원가입</a></li>
-                <li class="dropdown">
-                    <a href="javascript:void(0)" class="dropbtn">메뉴</a>
-                    <div class="dropdown-menu">
-                      <a href="#">menu 1</a>
-                      <a href="#">menu 2</a>
-                      <a href="#">menu 3</a>
-                    </div>
-                </li>
-            </ul>
         </div>
 
         <div class="test3">
@@ -37,14 +39,20 @@
         </div>
     </nav>
 
-
     <main>
+        <section></section>
         <div class="test4">
-            <h2>content</h2>
-            <p></p>
-            <p></p>
-            <p></p>
+            <h2>예약</h2>
+            <p>검색</p>
+            <label for="checkIn">체크인
+                <input type="date" id="date">
+            </label>
+            <label for="checkIn">체크아웃
+                <input type="date" id="date">
+            </label>
+            <p>객실</p>
         </div>
+        <section></section>
     </main>
 
     <footer>
