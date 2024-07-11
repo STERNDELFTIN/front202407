@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 5%;
+    
+}
+
+a {
+    /* 밑줄 제거 */
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+li {
+    float: left;
+    border-right: 1px solid #bbb; /*링크 구분선*/
+}
+  
+li a {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #ffafaf;
+  }
+ 
+
+/* 드롭다운 */
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-menu a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+/*************************/
+
+
+  .active {
+    background-color: red;
+  }
+
+  .test1 {
+    background-color: rgb(212, 255, 127);
+    border: 2px solid gray;
+}
+.test1>h1 {
+    text-align:center;
+}
+.test1>a {
+    border: 2px solid black;
+    margin:0px;
+    padding:10px;
+    float:right;
+}
+
+.test2 {
+    border: 2px solid rgb(255, 0, 0);
+    float:right;
+}
+.test2>a {
+    border: 3px solid rgb(0, 0, 0);
+    margin:0px;
+    padding:0px;
+}
+
+.test3 {
+    border: 2px solid rgb(255, 0, 144);
+    float:left;
+}
+.test4 {
+    background-color: rgb(127, 159, 255);
+    border: 2px solid rgb(45, 72, 0);
+}
