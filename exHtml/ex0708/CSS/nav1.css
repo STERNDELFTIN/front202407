@@ -1,0 +1,24 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    /* 메뉴 타겟(클릭영역) 확보하기_strat */
+    display: block;
+    width: 80px;
+    /************************************/
+    background-color: rgb(229, 229, 229);
+    color: black;
+
+    padding: 8px 15px; /* margin을 줘버리면 메뉴가 띄어져있음 margin X*/
+
+    /* 밑줄 없애기 */
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(67, 66, 64);
+    color: white;
+}

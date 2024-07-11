@@ -1,0 +1,45 @@
+* { margin:0; padding:0; }
+img { vertical-align:middle; }
+#wrap { width: 100%; margin:100px auto; }
+
+#wrap .img-wrap {
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    /* 부모(조상영역) position 설정 */
+    position:relative;
+}
+
+#wrap .img-wrap img {
+    /* 상대 위치 지정 position 설정하기
+        z-index 사용하기 위해서 가격표와 앞뒤 위치 z-index 지정
+        숫자가 작으면 밑으로 쌓이고 숫자가 높으면 위로 쌓임 */
+    z-index: 2;
+    position:relative;
+
+    width: 100%;
+    transition: all 1s;
+}
+
+#wrap .img-wrap img:hover {
+    transform:scale(1.5);
+}
+
+#wrap .img-wrap span {
+    display: block;
+    width:80px;
+    height:80px;
+    line-height: 80px; /* 글자 위 아래 가운데 */
+    text-align: center; /* 좌우가운데 */
+    background: #c33;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 50%; /* 가격표 원형 제작 */
+
+    /* 절대 위치 지정 position 설정 */
+    /* .img-wrap position:relative 부모요소를 찾아가서 위치 설정 */
+    z-index: 1;
+    position: absolute;
+    top: -55px;
+    right: 0px;
+}

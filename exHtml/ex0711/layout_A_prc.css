@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+* { margin:0; padding:0; }
+
+.wrap { width:1200px; height:700px; margin: auto;}
+
+header { background-color: hsl(0, 100%, 71%); height:100px; }
+
+
+
+.slide { background-color: #ff9090; height:300px; }
+
+.content { background-color: #ffc3c3; height:200px; }
+
+footer { background-color: #ffe6e6; height:100px; }

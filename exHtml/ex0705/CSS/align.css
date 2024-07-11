@@ -1,0 +1,44 @@
+div{
+    background-color: wheat;
+    margin: 20px;
+}
+p{
+    width: 300px;
+    background-color: rgb(191, 242, 212);
+}
+
+.p1{
+    text-align: left;
+}
+.p2{
+    text-align: center;
+}
+.p3{
+    text-align: right;
+}
+
+/* 위아래 이미지 배치하기 */
+/* .d1{
+    기본방향
+    direction: ltr;
+} */
+.d2{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+.img1{
+    vertical-align: baseline;
+}
+.img2{
+    vertical-align: text-top;
+}
+.img3{
+    vertical-align: text-bottom;
+}
+.img4{
+    vertical-align: sub;
+}
+.img5{
+    vertical-align: super;
+}

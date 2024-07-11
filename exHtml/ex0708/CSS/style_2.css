@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+aside {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+
+    background-color: cadetblue;
+}
+
+aside a {
+    display: black;
+
+    padding: 20px;
+    text-decoration: none;
+}
+
+section {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+
+    margin-left: 200px;
+    padding: 20px;
+    background-color: coral;
+}

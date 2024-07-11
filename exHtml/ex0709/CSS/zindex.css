@@ -1,0 +1,29 @@
+.container {
+    position: relative;
+    background-color: rgba(252, 212, 172, 0.901);
+}
+
+.black {
+    position: relative;
+    border: 2px solid black;
+    height: 100px;
+    margin: 30px;
+}
+.gray {
+    position:absolute;
+    background-color: rgb(216, 211, 211);
+    width: 70%;
+    height: 60px;
+    left:50px;
+    top:50px;
+    z-index:2;
+}
+.green {
+    position:absolute;
+    background-color: rgb(199, 234, 199);
+    width: 35%;
+    height: 100px;
+    left: 270px;
+    top: -15px;
+    z-index:1;
+}

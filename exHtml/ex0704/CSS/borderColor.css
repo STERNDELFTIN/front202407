@@ -1,0 +1,20 @@
+p.one {
+    border-style: solid;
+    border-color: red;
+}
+
+p.two {
+    border-style: solid;
+    border-color: green;
+}
+
+p.three {
+    border-style: dotted;
+    border-color: blue;
+}
+
+p.four {
+    border-style: solid;
+    border-color: red green blue yellow
+    /* top, right, bottom, left */
+}

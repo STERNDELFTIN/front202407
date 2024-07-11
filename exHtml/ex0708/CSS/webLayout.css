@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+.header, .footer {
+    background-color: grey;
+    color:white;
+    padding: 15px;
+}
+
+.column {
+float: left;
+padding: 15px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.menu {
+    width: 25%;
+}
+
+.content {
+    width: 75%;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.meuu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: skyblue;
+    color: white;
+}
+
+.menu li:hover {
+    background-color: rgb(98, 178, 209);
+}

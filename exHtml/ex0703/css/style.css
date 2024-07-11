@@ -1,0 +1,10 @@
+body {background-color: rgb(222, 251, 255);}
+/* 
+    주석: 실행되지 않는 부분
+    여기에 설명이나.
+    전달사항을 적어요.
+*/
+h1 {color: blue;}
+p {
+    border: 2px solid red;
+    color: red;}
