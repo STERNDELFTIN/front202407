@@ -1,0 +1,31 @@
+/* styles.css */
+
+/* 전체 페이지 스타일링 */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header, main, footer {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  header h1 {
+    margin: 0;
+    padding: 20px 0;
+  }
+  
+  main {
+    display: flex;
+  }

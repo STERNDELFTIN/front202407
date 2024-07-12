@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hotel Reservation</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <body>
+        <header>
+          <h1>Hotel Reservation</h1>
+          <div id="auth-buttons">
+            <button id="login-button">Login</button>
+            <button id="signup-button">Sign Up</button>
+          </div>
+        </header>
+  
+  <main>
+    <section id="reservation-form">
+      <h2>Make a Reservation</h2>
+      <form id="reservation" action="#">
+        <label for="guest-name">Guest Name:</label><br>
+        <input type="text" id="guest-name" name="guest-name" required><br><br>
+        
+        <label for="checkin-date">Check-in Date:</label><br>
+        <input type="date" id="checkin-date" name="checkin-date" required><br><br>
+        
+        <label for="checkout-date">Check-out Date:</label><br>
+        <input type="date" id="checkout-date" name="checkout-date" required><br><br>
+        
+        <label for="room-type">Room Type:</label><br>
+        <select id="room-type" name="room-type" required>
+          <option value="Single">Single</option>
+          <option value="Double">Double</option>
+          <option value="Suite">Suite</option>
+        </select><br><br>
+        
+        <label for="num-guests">Number of Guests:</label><br>
+        <input type="number" id="num-guests" name="num-guests" min="1" required><br><br>
+        
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+    
+    <section id="login-section">
+      <h2>Login</h2>
+      <form id="login-form">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" required><br><br>
+        
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+        
+        <button type="submit">Login</button>
+      </form>
+      
+      <p>Don't have an account? <a href="#" id="signup-link">Sign Up</a></p>
+    </section>
+    
+    <section id="signup-section" style="display: none;">
+      <h2>Sign Up</h2>
+      <form id="signup-form">
+        <label for="new-username">New Username:</label><br>
+        <input type="text" id="new-username" name="new-username" required><br><br>
+        
+        <label for="new-password">New Password:</label><br>
+        <input type="password" id="new-password" name="new-password" required><br><br>
+        
+        <button type="submit">Sign Up</button>
+      </form>
+      
+      <p>Already have an account? <a href="#" id="login-link">Login</a></p>
+    </section>
+    
+    <!-- HTML 파일에 로그아웃 링크 추가 -->
+<!-- 예약 목록 표시 섹션에 로그아웃 링크 추가 -->
+<section id="current-reservations">
+    <h2>Current Reservations</h2>
+    <ul id="reservation-list">
+      <!-- 예약 목록은 JavaScript로 동적으로 추가 -->
+    </ul>
+    <a href="#" id="logout-link">Logout</a>
+  </section>
+  
+  </main>
+  
+  <footer>
+    <p>&copy; 2024 Hotel Reservation System</p>
+  </footer>
+  
+  <script src="./scripts.js"></script>
+</body>
+</html>

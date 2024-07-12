@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>호텔 예약 사이트</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>호텔 예약 사이트</h1>
+        <nav>
+            <ul>
+                <li><a href="#">홈</a></li>
+                <li><a href="#">예약</a></li>
+                <li><a href="#" id="login-link">로그인</a></li>
+                <li><a href="#">문의하기</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="search">
+            <h2>호텔 검색</h2>
+            <form id="search-form">
+                <label for="destination">목적지</label>
+                <input type="text" id="destination" name="destination" required>
+                
+                <label for="check-in">체크인 날짜</label>
+                <input type="date" id="check-in" name="check-in" required>
+                
+                <label for="check-out">체크아웃 날짜</label>
+                <input type="date" id="check-out" name="check-out" required>
+                
+                <button type="submit">검색</button>
+            </form>
+        </section>
+        <section class="results" id="results">
+            <h2>검색 결과</h2>
+            <!-- 호텔 검색 결과가 여기 표시됩니다 -->
+        </section>
+        <section class="login" id="login-section">
+            <h2>로그인</h2>
+            <form id="login-form">
+                <label for="username">사용자 이름</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="password">비밀번호</label>
+                <input type="password" id="password" name="password" required>
+                
+                <button type="submit">로그인</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 호텔 예약 사이트. All rights reserved.</p>
+    </footer>
+    <script src="./scripts.js"></script>
+</body>
+</html>
