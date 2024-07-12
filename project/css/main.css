@@ -8,7 +8,7 @@ body {
 }
 
 /***************************************/
-.test1 {
+.menu {
   border: 2px solid #000000;
   float:right;
 }
@@ -26,7 +26,7 @@ header {
   margin: 20px;
 }
 
-.test3 {
+.menu_Accommodation {
   background-color: rgb(255, 222, 222);
   border: 2px solid rgb(162, 0, 255);
   height:50px;
@@ -36,21 +36,21 @@ main {
   display: flex;
   height:500px;
 }
-.test4 {
+.booking {
   background-color: rgb(255, 209, 209);
   border: 2px solid rgb(36, 181, 58);
   height:200px;
   width: 60%;
   text-align:center;
 }
-section {
+main>section {
   border: 2px solid black;
   height: auto;
   width: 20%;
   padding:50px;
 }
 
-.test5 {
+.ft {
   background-color: rgb(255, 230, 230);
   border: 2px solid rgb(0, 60, 255);
   height:50px;

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입 폼</title>
+    <link rel="stylesheet" href="./css/create_account.css">
+</head>
+<body>
+    <h4>회원가입</h4>
+
+<div>
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="user_id">아이디</label>
+    <input type="text" id="user_id" name="user_id" placeholder="ID 입력">
+
+    <label for="user_password">비밀번호</label>
+    <input type="password" id="user_password" name="user_password" placeholder="비밀번호 입력">
+    <label for="user_password">비밀번호 확인</label>
+    <input type="password" id="user_password" name="user_password" placeholder="비밀번호 입력">
+    <button>확인</button>
+    <br><br>
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="korea">Korea</option>
+      <option value="Japan">Japan</option>
+      <option value="China">China</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+
+    <div class="backBtn">
+      <button type="button" onclick="location.href='./index.html'">돌아가기</button>
+    </div>
+  </form>
+</div>
+</body>
+</html>
