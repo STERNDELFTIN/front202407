@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table style</title>
+    <style>
+        table, th, td {
+            border: 1px solid rgb(0, 0, 0);
+            border-collapse: collapse;
+
+            padding: 10px;
+            padding-right:50px;
+        }
+        /*tr:nth-child(even) { background-color: red; }*/
+        /*tr:nth-child(odd) { background-color: red; }*/
+        /*tr:hover { background-color: red; }*/
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup><col span="2" style="background-color: red"></colgroup>
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+    </table>
+</body>
+</html>
