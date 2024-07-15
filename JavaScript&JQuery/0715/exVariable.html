@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 함수 선언 및 call 할 때 실행
+        // step1: logScope함수 선언
+        function logScope()
+        {
+            // 함수 내 localVar 변수 생성 및 초기화
+            let localVar = 2;
+            // 함수 내 값 출력
+            console.log(localVar);
+
+            // 소멸시점 ***let으로 선언된 지역(블록)변수는 '}'으로 닫히기 직전에 사라짐***
+        }
+        // step2: logScope함수를 call 부르는 함수
+        logScope();
+
+        // step3: 오류! 이미 소멸된 변수를 부름
+        // console.log(localVar);
+
+        // const(상수; 항상 같은 수) 변수 선언
+        // 값 변경 불가능
+        const num = 1;
+        console.log(num); // 1
+        /// num = 2; // 에러 발생
+
+        // let 변수 선언
+        let num2 = 5;
+        if (num2) {
+            let num2 = 10;
+            console.log(num2); // 10
+        }
+        console.log(num2); // 5
+
+        // var 변수 선언
+        var num3 = 5;
+        if (num3) {
+            var num3 = 10;
+            console.log(num3); // 10
+        }
+        console.log(num3); // 10
+    </script>
+</body>
+</html>
