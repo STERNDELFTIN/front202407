@@ -45,6 +45,35 @@
             console.log(num3); // 10
         }
         console.log(num3); // 10
+
+        // 
+        function logScope()
+        {
+            let myLet2 = 22;
+
+            if (myLet2) {
+                let myLet = "다른 값";
+                console.log("안에서 " + myLet);
+            }
+            // 변수값 이미 사라짐
+            console.log("Let 밖에서 " + myLet);
+            console.log("밖에서 " + myLet2);
+        }
+        logScope();
+
+        function logScopeVar()
+        {
+            var myVar2 = 22;
+
+            if (myVar2) {
+                var myVar = "다른 값";
+                console.log("안에서 " + myVar);
+            }
+            // 변수값 이미 사라짐
+            console.log("Var 밖에서 " + myVar);
+            console.log("밖에서 " + myVar2);
+        }
+        logScopeVar();
     </script>
 </body>
 </html>
