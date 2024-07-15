@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text direction</title>
+    <style>
+        .test1 {
+            direction: rtl;
+        }
+        .test2 {
+            direction: ltr;
+        }
+        .test3 {
+            direction: rtl;
+            unicode-bidi: bidi-override;
+        }
+    </style>
+</head>
+<body>
+    <p class="test1">This is the direction: rtl.</p>
+    <p class="test2">This is the direction: ltr.</p>
+    <p class="test3">This is the directtion: rtl and unicode-bidi: bidi-override.</p>
+</body>
+</html>
