@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 사용자가 요소를 클릭하면 요소의 내용 변경 -->
+    <h2>The onclik Attribute</h2>
+    <h3 onclick="this.innerHTML='hello!'">Click on this text!</h3>
+
+    <!-- 이벤트 핸들러에서 함수 호출 -->
+    <h3 onclick="changeText(this)">Click on this text!</h3>
+    <script>
+        function changeText(id) {
+            id.innerHTML="hello!";
+        }
+    </script>
+
+    <!-- HTML 이벤트 속성 이용 -->
+    <button onclick="displayDate()">The current date test1</button>
+    <script>
+        function displayDate() {
+            document.getElementById("demo").innerHTML = Date();
+        }
+    </script>
+    <p id="demo">현재 날짜 test1 해당 위치에 표시</p>
+
+    <!-- HTML DOM을 사용하여 자바스크립트로 이벤트 할당 -->
+    <button id="btn">The current date test2</button>
+    <p id="demo2">현재 날짜 test2 해당 위치에 표시</p>
+    <script>
+        document.getElementById("btn").onclick = displayDate2;
+        function displayDate2() {
+            document.getElementById("demo2").innerHTML = Date();
+        }
+    </script>
+</body>
+</html>

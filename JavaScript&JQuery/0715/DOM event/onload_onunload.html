@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="checkCookies()">
+    <!-- 사용자가 페이지에 들어오거나 나갈 때 트리거됨
+    onload 이벤트는 방문자의 브라우저 유형 및 버전을 확인하고, 해당 정보에 따라 적절한 버전의 웹 페이지를 로드하는 데 사용 가능
+    onload 및 onunload 이벤트를 사용하여 쿠키 처리 가능 -->
+    <p id="demo"></p>
+    
+    <script>
+        function checkCookies() {
+            let text=""
+            if (navigator.cookieEnabled == true) {
+                text = "Cookies are enabled.";
+            } else {
+                text = "Cookies are not enabled.";
+            }
+
+            document.getElementById("demo").innerHTML = text;
+        }
+    </script>
+</body>
+</html>
