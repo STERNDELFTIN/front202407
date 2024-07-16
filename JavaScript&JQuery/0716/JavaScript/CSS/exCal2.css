@@ -1,5 +1,6 @@
-/* * { magin:0; padding:0; box-sizing:border-box; }
+* { margin:0; padding:0; box-sizing:border-box; }
 
 .wrap {
-    width:129
-} */
+    background-color: rgb(178, 233, 250);
+    text-align:center;
+}
