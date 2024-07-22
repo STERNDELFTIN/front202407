@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5장 연습문제2</title>
+    <script>
+        var num = Number(prompt("점수를 입력하세요."));
+
+        function grade(num) {
+            if (num <= 100 && num >= 90)
+                document.write("A등급");
+            else if (num < 90 && num >= 80)
+                document.write("B등급");
+            else if (num < 80 && num >= 70)
+                document.write("C등급");
+            else if (num < 70 && num >= 60)
+                document.write("D등급");
+            else if (num < 60 && num >= 0)
+                document.write("F등급");
+            else
+                document.write("잘못 입력하셨습니다.");
+        }
+    </script>
+</head>
+<body>
+    <!-- prompt 이용하여 학생의 점수를 입력하면 점수와 학점 출력
+        function num(jumsu)을 정의하여 작성
+        (단, 90점이상 A, 80점이상 B, 70점이상 C, 60점이상 D, 그 이외 F)-->
+</body>
+</html>

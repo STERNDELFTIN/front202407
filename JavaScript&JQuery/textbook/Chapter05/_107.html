@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>함수 예제 문제</title>
+    <script>
+        function flower(flowerName) 
+        {
+            switch (flowerName) {
+                case "무궁화":
+                    alert("무궁화 동호회를 추천합니다.");
+                    break;
+                case "국화":
+                    alert("국화 동호회를 추천합니다.");
+                    break;
+                case "장미":
+                    alert("장미 동호회를 추천합니다.");
+                    break;
+                }
+        }
+    </script>
+</head>
+<body>
+    <!-- 마우스 클릭 > 무궁화, 국화, 장미 > flower(value) > 각각 출력문 출력 "~ 동호회를 추천합니다." -->
+    <button type="button" id="Hibiscus" onclick="flower('무궁화')">무궁화</button>
+    <button type="button" id="Mum" onclick="flower('국화')">국화</button>
+    <button type="button" id="Rose" onclick="flower('장미')">장미</button>
+</body>
+</html>
