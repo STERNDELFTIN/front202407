@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: rgb(189, 238, 255);
+}

@@ -1,0 +1,26 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    padding: 50px;
+    background-color: #ade6fc;
+}
+
+pre {
+    font-size: 16px;
+    color: rgb(21, 99, 99);
+    margin-top: 20px;
+}
+
+p {
+    font-size: larger;
+    font-weight: 500;
+    margin-top: 20px;
+    border-bottom: 1px solid rgb(61, 61, 61);
+}
