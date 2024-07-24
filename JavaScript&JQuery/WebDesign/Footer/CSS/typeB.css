@@ -1,0 +1,15 @@
+* { padding:0; margin:0; box-sizing:border-box; color:brown; font-family: "맑은 고딕", sans-serif; }
+li { list-style: none; }
+a { text-decoration:none; color:inherit; }
+img { vertical-align:top; }
+
+.inner { display:flex; align-items:center; width:1200px; height:100px; margin: 0px auto; }
+
+
+footer { width:100%; height:100px; background-color:orange; }
+a.logo { width:200px; height:40px; font-size:0px; color:transparent; }
+footer p { width:70%; text-align:center; }
+
+.sns { display:flex; justify-content:space-between; width:10%; }
+.sns li { display:inline-block; width:24%; }
+.sns li img { width:100%; }

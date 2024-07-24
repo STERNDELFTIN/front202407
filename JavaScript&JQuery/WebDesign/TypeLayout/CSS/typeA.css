@@ -1,0 +1,7 @@
+* { margin:0; padding:0; }
+
+.wrap { width:1200px; height:700px; margin:0 auto;}
+header { height:100px; background-color: rgb(255, 255, 152);}
+.slide { height: 300px; background-color: #a2e7f8;}
+.content { height:200px; background-color: #ffaeae;}
+footer { height:100px; background-color: #b8ffbe; }

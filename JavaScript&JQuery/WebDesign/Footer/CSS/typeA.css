@@ -1,0 +1,14 @@
+* { padding:0; margin:0; box-sizing:border-box; font-family:'맑은 고딕', sans-serif; color:rgb(23, 21, 21);}
+
+.wrap { width:1200px; height:700px; margin: 0 auto; }
+
+footer { display:flex; height:100px; align-items:center; background-color: antiquewhite;}
+footer .logo { display:block; width:200px; height:40px; font-size:0px; color:transparent; }
+footer p { width:70%; text-align:center; }
+
+a { text-decoration:none; color:inherit; }
+a img.G { width:200px; height:70px; }
+img { vertical-align: top; }
+
+
+.sns a img { display:inline-block; margin-left: 10px; }
