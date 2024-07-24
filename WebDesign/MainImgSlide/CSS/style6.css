@@ -1,0 +1,28 @@
+* {
+    margin:0; padding:0; box-sizing:border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.wrap {
+    margin:0 atuo;
+    width:940px; height:800px;
+    background-color:antiquewhite;
+}
+
+.slide {
+    width:940px; height:300px;
+    position:relative;
+    overflow:hidden;
+}
+
+.slide>img {
+    position:absolute;
+    left:-100%; top:0;
+    opacity: 0;
+}
+
+.slide>img:first-child {
+    left:0;
+    opacity: 1;
+}

@@ -1,0 +1,27 @@
+* {
+    margin:0; padding:0; box-sizing: border-box;
+    text-decoration: none;
+    list-style:none;
+}
+
+.wrap {
+    margin:0 auto;
+    width:940px; height:800px;
+    background-color: antiquewhite;
+}
+
+.slide {
+    width:940px; height:300px;
+    position:relative;
+    overflow: hidden;
+}
+
+.slide>img {
+    position:absolute;
+    left:0; top:0;
+    opacity:0; /* opacity: 불투명도. 0은 완전 투명*/
+}
+
+.slide>img:first-child {
+    opacity:1; /* 1은 완전 불투명*/
+}

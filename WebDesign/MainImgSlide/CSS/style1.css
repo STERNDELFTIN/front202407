@@ -1,0 +1,25 @@
+* {
+    margin:0; padding:0;
+    list-style:none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color:#333;
+}
+
+.wrapper { width: 940px; margin:0 auto; }
+
+.slide {
+    width: 100%; height: 300px;
+    position: relative;
+    overflow:hidden;
+}
+
+.slide>img {
+    position:absolute;
+    top:0;
+    left:-100%;
+}
+
+.slide>img:first-child {
+    left:0;
+}

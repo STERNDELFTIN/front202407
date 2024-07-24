@@ -1,0 +1,29 @@
+* {
+    margin:0; padding:0; box-sizing: border-box;
+    color:#333;
+    text-decoration: none;
+    list-style:none;
+}
+
+.wrap {
+    margin: 0 auto;
+    width:940px; height:80px;
+    background-color: antiquewhite;
+}
+
+.slide {
+    width:940px; height:300px;
+    position:relative;
+    overflow:hidden;
+}
+
+.slide>img {
+    position: absolute;
+    left:100%;
+    top:0;
+}
+
+/* 슬라이드 첫 번째 이미지는 보여줌 */
+.slide>img:first-child {
+    left:0;
+}
