@@ -1,0 +1,82 @@
+* { margin:0; padding:0; box-sizing: border-box; }
+
+.wrap {
+    background-color: antiquewhite;
+    width: 1200px; height: 700px;
+    margin: 0 auto;
+}
+
+/* header ***************************/
+header {
+    display:flex;
+    height:100px;
+    background-color: lightcoral;
+    align-items: center;
+    /* justify-content: flexbox 컨테이너 안에서 주축을 따라 아이템들을 정렬하고 공간을 분배하는 데 사용
+        spacec-around: 아이템들이 균등하게 배치되며, 아이템들 사이와 양 끝에 동일한 양의 공간이 배치*/
+    justify-content: space-around;
+}
+/* 로고이므로 width와 height을 설정하여 공간 확보*/
+/* .logo {
+    width:20%;
+    background-color: lightsalmon;
+} */
+.logo {
+    width:200px; height:60px;
+    background-color: lightsalmon;
+}
+/* .menu {
+    width:80%;
+    background-color: lightpink;
+} */
+nav {
+    width:800px; height:100px; background-color:lightpink;
+}
+/* ******************************** */
+
+/* slide*************************** */
+.slide {
+    height:300px;
+    background-color: lightcyan;
+}
+/* ******************************** */
+
+/* content************************* */
+.content {
+    display:flex;
+    height: 200px;
+    background-color: lightblue;
+}
+.c1 {
+    width:33.333%;
+    background-color: lightgrey;
+}
+.c2 {
+    width:33.333%;
+    background-color: lightseagreen;
+}
+.c3 {
+    width:33.333%;
+    background-color: lightslategrey;
+}
+/* ******************************** */
+
+/* footer************************** */
+footer {
+    display:flex;
+    height:100px;
+    background-color: lightgreen;
+}
+.f1 {
+    width:20%;
+    background-color: lightyellow;
+}
+.f2 {
+    width:60%;
+    background-color: lightgoldenrodyellow;
+}
+.f3 {
+    width: 20%;
+    background-color: lightsteelblue;
+}
+/* ******************************** */

@@ -1,0 +1,87 @@
+* { margin:0; padding: 0; box-sizing: border-box; }
+
+.wrap {
+    width: 1200px; height:700px;
+    background-color: antiquewhite;
+    margin: 0 auto;
+}
+
+/* header/footer*********************** */
+header, footer {
+    width:100%; height:100px;
+    background-color: lightblue;
+}
+.er {
+    display:flex;
+    width:80%; height:100%;
+    background-color: lightgoldenrodyellow;    
+    align-items: center;
+    /* flex 컨테이너 안의 아이템들을 주축(메인 축)을 따라 균등하게 배치하며, 첫 번째 아이템은 시작 부분에, 마지막 아이템은 끝 부분에 배치하고 나머지 아이템들은 사이에 균등한 간격을 두어 배치 */
+    justify-content: space-between;
+    margin: 0 auto;
+}
+/* *********************************** */
+
+/* header***************************** */
+.logo {
+    width: 150px; height:55px;
+    background-color:lightpink;
+}
+nav {
+    width:640px; height:100px;
+    background-color: lightgreen;
+}
+/* *********************************** */
+
+/* footer***************************** */
+.f1 {
+    width: 20%; height:50px;
+    background: lightslategray;
+}
+.f2 {
+    width: 60%; height:50px;
+    background-color: lightcyan;
+}
+.f3 {
+    width: 20%; height:50px;
+    background-color: lightsalmon;
+}
+/* ************************************ */
+
+/* .slide/.content********************* */
+.main {
+    width: 1200px; height:500px;
+    margin: 0 auto;
+}
+.slide, .content {
+    display:flex;
+    width:80%;
+    margin: 0 auto;
+}
+/* *********************************** */
+
+/* .slide***************************** */
+.slide {
+    height:300px;
+    background-color: lightcoral;
+}
+/* *********************************** */
+
+/* .content*************************** */
+.content { 
+    display:flex;
+    height:200px;
+}
+.content>.c1 {
+    width: 33.33%;
+    background-color: lightseagreen;
+}
+.content>.c2 {
+    width: 33.33%;
+    background-color: lightgrey;
+}
+.content>.c3 {
+    width: 33.33%;
+    background-color: lightsteelblue;
+}
+/* ************************************ */

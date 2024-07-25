@@ -1,0 +1,81 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+.wrap {
+    display: flex;
+    width: 1000px; height: 650px;
+    background-color: antiquewhite;
+    margin: 0 auto;
+}
+
+/* header*********************** */
+header {
+    width: 20%; height: 100%;
+    background-color: lightcoral;
+}
+
+.logo {
+    height: 20%;
+    background-color:lightslategray;
+}
+
+.menu {
+    height: 80%;
+    background-color: lightgray;
+}
+/* ***************************** */
+
+/* .right*********************** */
+.right {
+    width: 80%;
+}
+/* ***************************** */
+
+/* .slide*********************** */
+.right>.slide {
+    height: 350px;
+    background: lightblue;
+}
+/* ***************************** */
+
+/* .content********************** */
+.right>.content {
+    display:flex;
+    height:200px;
+    background-color: lightskyblue;
+}
+.c1 {
+    width: 33.33%;
+    background-color: lightgreen;
+}
+.c2 { 
+    width: 33.33%;
+    background-color: rgb(208, 255, 138);
+}
+.c3 {
+    width: 33.33%;
+    background-color: rgb(66, 195, 66);
+}
+/* ***************************** */
+
+/* footer*********************** */
+.right>footer {
+    display: flex;
+    height:100px;
+    background-color: lightsteelblue;
+}
+.cr {
+    width: 80%;
+}
+.site {
+    width: 20%;
+    background-color: aquamarine;
+}
+.site>.SNS {
+    height: 50%;
+    background-color: lightpink;
+}
+.site>.family {
+    height: 50%;
+    background-color:lightsalmon;
+}
+/* ***************************** */
