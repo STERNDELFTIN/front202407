@@ -1,0 +1,11 @@
+/* effect : blue color */
+.blue {
+    color: blue;
+}
+
+/* effect : important */
+.important {
+    font-weight: bold;
+    font-size: xx-large;
+}
+

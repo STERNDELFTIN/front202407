@@ -1,0 +1,7 @@
+* { box-sizing: border-box; }
+
+.div1 {
+    width: 300px; height: 300px;
+    border: 1px solid blue;
+    background-color: lightblue;
+}
