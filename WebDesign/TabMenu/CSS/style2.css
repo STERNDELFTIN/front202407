@@ -1,0 +1,114 @@
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    color: #666666;
+    list-style: none;
+    text-decoration: none;
+}
+
+.wrap {
+    position: relative;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+#contents {
+    position: relative;
+    height: 500px;
+    margin-top: 20px;
+}
+#contents>article { float: left; }
+
+h1 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #666;
+}
+
+.notice {
+    width: 400px;
+    position: absolute;
+    left: 50px;
+}
+
+.contentpop {
+    display:none;
+    position: absolute;
+    width: 400px; height: 400px;
+    top: 50%; left: 50px;
+    transform: translate(50%, -60%);
+    z-index: 999;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+.contentpop p { padding: 30px 30px; }
+
+.exit {
+    position: fixed;
+    bottom: 20px; right: 20px;
+}
+
+.gallery {
+    position: absolute;
+    left: 500px;
+    width: 500px;
+}
+.gallery img { 
+    float: left;
+    cursor: pointer;
+}
+
+.tab {
+    position: relative;
+    border-left: 1px solid #3333;
+    border-right: 1px solid #3333;
+    border-top: 1px solid #3333;
+    border-bottom: 0;
+    height: 30px; width: 80px;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 30px;
+    z-index: 998;
+}
+
+.gallery>.tab { background-color: #999; }
+.notice>.tab { background: white; }
+.notice ul>li {
+    height: 45px;
+    line-height: 45px;
+    padding: 5px;
+    float: left;
+    border-bottom: 1px solid #333;
+}
+.notice ul>li:first-child { width: 250px; }
+
+.box {
+    border: 1px solid #333;
+    width: 100%; height: 200px;
+    margin-top: -1px;
+}
+
+.gallery img {
+    float: left;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.shortcut {
+    width: 200px;
+    position: absolute;
+    right: 50px;
+}
+.shortcut>a {
+    display:block;
+    margin-bottom: 5px;
+    width: 100%; height: 33px;
+    background-color: #008FDA;
+    color: white;
+    border-radius: 5px;
+    line-height: 33px;
+    text-align: center;
+    text-decoration: none;
+}

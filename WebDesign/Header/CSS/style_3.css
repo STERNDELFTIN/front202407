@@ -1,0 +1,39 @@
+/* default settings */
+* { box-sizing: border-box; text-decoration: none; list-style: none; color: inherit; margin: 0; padding: 0; }
+.wrap { width: 1200px; height: 700px; background-color: antiquewhite; }
+
+.logo { width: 200px; height: 40px; }
+
+header { display: flex; height: 100px; align-items: center; }
+header nav { width: 600px; margin: 58px 0 0 370px; }
+header nav>ul { display: flex; }
+
+.menu {
+    /* relative로 설정하지 않으면 서브메뉴의 위치가 부모 요소를 기준으로 올바르게 배치되지 않을 수도 있음 */
+    position: relative;
+}
+/* 일반적으로 메뉴를 만들 때 padding vs. width
+- padding: 반응형 디자인 (메뉴 항목이 화면 크기에 따라 유연하게 조정 가능)
+- width: 고정 레이아웃 디자인 (모든 메뉴 항목의 크기를 동일하게 유지하고자 할 때 유용. 특히 데스크탑 전용 사이트나 특정 화면 크기에 최적화된 디자인)*/
+.menu>a, .submenu>li>a {
+    display: block;
+    background-color: rgb(37, 74, 196);
+    padding: 10px;
+}
+
+.menu>a:hover {
+    background-color: yellow;
+    color: blue;
+}
+
+.submenu {
+    position: absolute;
+    /* 특정 상황에서 문제가 발생할 수 있으므로 표시해주는 것이 좋음 */
+    top: 100%; left: 0; /* 서브메뉴가 부모 메뉴 바로 아래에 나타나게 함 */
+    width: 100%;
+    display: none;
+}
+.submenu>li>a:hover {
+    background-color: greenyellow;
+    color: blue;
+}

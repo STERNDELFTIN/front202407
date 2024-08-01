@@ -1,0 +1,22 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+li { list-style: none; }
+a { text-decoration: none; color: inherit; }
+img { vertical-align: top; }
+
+.wrap { position: relative; width: 1200px; height: 700px; margin: 0 auto; }
+
+header { display: flex; height: 100px; align-items: center; }
+.logo { display: block; width: 200px; height: 40px; font-size: 0px; color: transparent; }
+.headerBg { position: absolute; width: 100%; height: 200px; left: 0; top: 100px; background: yellowgreen; z-index: 997;  display: none; }
+
+header h1 a { display: block; width: 200px; height: 40px; }
+
+header nav { width: 600px; margin: 58px 0 0 370px; }
+header nav>ul { display: flex; }
+header nav ul a { display: block; text-align: center; background: #fff; padding: 10px; }
+
+.menu { position: relative; width: 25%; }
+.submenu { position: absolute; width: 100%; z-index: 998; display: none; }
+.submenu a { color: #fff; background: yellowgreen; }
+.menu:hover>a { color: #fff; background: purple; }
+.submenu li:hover a { color: #333; background: #fff; }

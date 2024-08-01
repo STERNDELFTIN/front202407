@@ -1,0 +1,40 @@
+* { 
+    box-sizing: border-box;
+    padding: 0; margin: 0;
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+}
+
+header {
+    width: 200px; height: 100%;
+    border-right: 1px solid #000;
+    padding-top: 30px;
+}
+header .logo {
+    width: 200px;
+    aspect-ratio: auto; /* 이미지 비율 적용 */
+}
+
+header nav { margin-top: 20px; }
+header nav>ul { width: 180px; padding-left: 14px; }
+header nav a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.menu { position: relative; }
+.submenu {
+    position: absolute;
+    left: 166px; top: -30px;
+    width: 100%;
+    background-color: #6f886f;
+    z-index: 998;
+    display: none;
+}
+.menu:hover>a{
+    color: #ffffff; background-color: #6f886f;
+}
+.menu li:hover>a { color: #ffffff; background-color: #6f886f; }

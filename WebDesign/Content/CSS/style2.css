@@ -1,0 +1,36 @@
+* {
+    margin: 0; padding: 0; box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.blank01 { display:block; width: 1200px; height:20px; background-color: yellowgreen;}
+.blank02 { width: 20px; background-color: rgb(241, 255, 161);}
+.b { display:flex; width: 1200px; }
+.blank03 { width: 33.333%; height:20px; background-color: rgb(207, 249, 255);}
+.blank04 { width: 33.333%; height:20px; background-color: rgb(50, 156, 205);}
+.blank05 { width: 33.333%; height:20px; background-color: rgb(172, 185, 255);}
+
+.content { 
+    display:flex; background-color: #ffcccc;
+    width:1200px;
+}
+
+.tabMenu li { display: inline-block; font-size: 18px; font-weight: 600;}
+.tabMenu li a { display:block; padding:10px; }
+.tabMenu li.on a { background: #6159d6; }
+
+.tabItem >* { height: 156px; border: solid 10px rgb(158, 189, 255);}
+.tabItem >*.on { background: #bac8ee; }
+
+.notice li { display:flex; line-height: 2.2; }
+.notice li a { display: inline-block; width: 260px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.notice li span { margin-left: auto; }
+.notice li:hover { text-decoration: underline; }
+
+.gallery { display: none; }
+.gallery li { display: inline-block; width:32%; margin-top: 8px; }
+.gallery a img { width:100%; }
+
+.banner, .link { position: relative; }
+.banner h2, .link h2 { position:absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); font-size: 18px; font-weight: 600; background: #fff; padding: 10px; }

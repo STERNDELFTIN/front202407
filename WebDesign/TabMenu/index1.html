@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>독립된 탭 메뉴</title>
+    <link rel="stylesheet" href="./CSS/style1.css">
+</head>
+<body>
+    <div class="wrap">
+        <section id="contents">
+            <!-- ------------------------------------------------------------- -->
+            <article class="notice">
+                <div class="tab">공지사항</div>
+                <div class="box">
+                    <ul>
+                        <li><a href="javascript:openPop();">제 30회 정기출사 및 모임 안내</a></li>
+                        <li>2020-03-30</li>
+                    </ul>
+                    <ul>
+                        <li><a href="#" 동호회 1분기>모임 안내</a></li>
+                        <li>2020-03-25</li>
+                    </ul>
+                    <ul>
+                        <li><a href="#" 동호회 1분기>2020 복지박람회 참가 안내</a></li>
+                        <li>2020-03-23</li>
+                    </ul>
+                    <ul>
+                        <li><a href="#" 동호회 1분기>3월 동호회 모임 안내</a></li>
+                        <li>2020-03-05</li>
+                    </ul>
+                </div>
+            </article>
+            
+            <div class="contentpop">
+                <h1>제30회 정기출사 및 모임 안내</h1>
+                <hr>
+                <p>
+                    웃긋불긋 단풍 가득한 가을을 카메라에 담고자 제30회 정기출사 모임을 아래와 같이 갖고자합니다. <br>
+                    회원 여러분의 많은 참여 부탁드립니다.<br><br><br>
+                    일시: 2019년 11월 16일 토요일 아침 10시<br>
+                    장소: 분당 중앙공원 정자<br>
+                    출사 후 회식 장소: 2시 서현역 근처 까투리
+                </p>
+                <button class="exit" onclick="closePop()">닫기</button>
+            </div>
+            <!-- ------------------------------------------------------------- -->
+            <article class="gallery">
+                <div class="tab">갤러리</div>
+                <div class="box">
+                    <img src="./IMG/g1.jpeg" alt="갤러리" width="160" height="100">
+                    <img src="./IMG/g2.jpeg" alt="갤러리" width="160" height="100">
+                    <img src="./IMG/g3.jpeg" alt="갤러리" width="160" height="100">
+                </div>
+            </article>
+            <!-- ------------------------------------------------------------- -->
+            <article class="shortcut">
+                <a href="#">바로가기1</a>
+                <a href="#">바로가기2</a>
+                <a href="#">바로가기3</a>
+                <a href="#">바로가기4</a>
+            </article>
+            <!-- ------------------------------------------------------------- -->
+        </section>
+    </div>
+
+    <script src="./JS/jquery-3.7.1.min.js"></script>
+    <script src="./JS/script1.js"></script>
+</body>
+</html>
