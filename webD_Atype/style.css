@@ -154,6 +154,18 @@ header nav .sub_menu>li>a:hover {
     text-align: center;
     /* text-decoration: none; */
 }
+
+.popup {
+    display:none;
+    position: absolute;
+    width: 400px; height: 400px;
+    top: 50%; left: 50px;
+    transform: translate(50%, -60%);
+    z-index: 999;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+.popup p { padding: 30px 30px; }
 /* *************************************************** */
 
 /* Footer */
