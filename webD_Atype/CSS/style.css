@@ -166,6 +166,9 @@ header nav .sub_menu>li>a:hover {
     background-color: #fff;
 }
 .popup p { padding: 30px 30px; }
+.exit {
+    transform: translate(50%, -80%);
+}
 /* *************************************************** */
 
 /* Footer */
