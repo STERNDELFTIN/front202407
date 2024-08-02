@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8"> <!-- charset = utf-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C-4</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <!-- 주제: Vallery Festival 홍보를 위한 웹사이트 제작 -->
+    <div class="wrap">
+        <header>
+            <div class="logo">
+                <a href="#"><img src="./IMG/Vallery Festival.png" alt="로고 이미지"></a>
+            </div>
+
+            <nav class="menu">
+                <ul>
+                    <li class="main"><a href="#">축제소개</a>
+                        <ul class="sub">
+                            <li><a href="#">Festival 소개</a></li>
+                            <li><a href="#">행사장 안내</a></li>
+                            <li><a href="#">조직위원회</a></li>
+                        </ul>
+                    </li>
+                    <li class="main"><a href="#">예약안내</a>
+                        <ul class="sub">
+                            <li><a href="#">예약하기</a></li>
+                            <li><a href="#">예약확인/취소</a></li>
+                            <li><a href="#">단체예약문의</a></li>
+                        </ul>
+                    </li>
+                    <li class="main"><a href="#">아티스트</a>
+                        <ul class="sub">
+                            <li><a href="#">고릴라즈</a></li>
+                            <li><a href="#">메이저 레이저</a></li>
+                            <li><a href="#">아우스게인</a></li>
+                            <li><a href="#">타임로드</a></li>
+                        </ul>
+                    </li>
+                    <li class="main"><a href="#">커뮤니티</a>
+                        <ul class="sub">
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">사진갤러리</a></li>
+                            <li><a href="#">영상갤러리</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </nav>
+        </header>
+
+        <div class="right">
+            <div class="slide">
+                <!-- 이미지 3개 -->
+                <img src="./IMG/food.jpg" alt="이미지">
+                <img src="./IMG/food1.jpg" alt="이미지">
+                <img src="./IMG/food2.jpg" alt="이미지">
+            </div>
+    
+            <div class="contents">
+                <div class="info">
+                    <ul class="title">
+                        <li><a href="#">공지사항</a></li>
+                    </ul>
+                    <ul class="content">
+                        <li><a href="javascript:openPop();">공지사항입니다.</a></li>
+                        <hr>
+                        <li><a href="#">공지사항입니다.</a></li>
+                        <hr>
+                        <li><a href="#">공지사항입니다.</a></li>
+                        <hr>
+                        <li><a href="#">공지사항입니다.</a></li>
+                        <hr>
+                    </ul>
+                </div>
+                <div class="popup">
+                    <button class="exit" onclick="closePop()">x</button>
+                    <h1>공지사항</h1>
+                    <p>공지사항 내용입니다.</p>
+                </div>
+ 
+                <div class="gallery">
+                    <ul class="title">
+                        <li><a href="#">갤러리</a></li>
+                    </ul>
+                    
+                    <ul class="content">
+                        <li><img src="./IMG/gallery1.jpg" alt="이미지"></li>
+                        <li><img src="./IMG/gallery2.jpg" alt="이미지"></li>
+                        <li><img src="./IMG/gallery3.jpg" alt="이미지"></li>  
+                    </ul>
+                </div>
+
+                <nav class="shortcut">
+                    <a href="#">바로가기 1</a>
+                    <a href="#">바로가기 2</a>
+                    <a href="#">바로가기 3</a>
+                </nav>
+            </div>
+    
+            <footer>
+                <div class="logo">
+                    <a href="#"><img src="./IMG/Vallery Festival.png" alt="로고 이미지" style="filter:grayscale(100%);"></a>
+                </div>
+    
+                <div class="copyright">
+                    Copyright 2024. Vallery Festival Inc. all right reserved.
+                </div>
+    
+                <div class="cite">
+                    <a href="#">사이트1</a>
+                    <a href="#">사이트2</a>
+                    <a href="#">사이트3</a>
+                    <!-- <input type=""> -->
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="./JS/jquery-3.7.1.min.js"></script>
+    <script src="./JS/script.js"></script>
+</body>
+</html>
