@@ -167,6 +167,9 @@ header nav .main a:hover, header nav .sub a:hover {
     transform: translate(220px, -10px);
     font-weight: bold;
 }
+.popup > p {
+    padding: 20px;
+}
 
 .contents .gallery {
     width: 40%;
