@@ -32,16 +32,21 @@ header {
     align-items: center;     /* 세로축 중앙 정렬 */
 }
 
-header nav .logo {
+header .logo {
+    background-color: rgb(219, 243, 252);
     /* display: inline-block; */
-    /* background-color: rgb(255, 223, 223); */
+    /* background-color: rgb(255, 223, 223); */  
 }
+.logo a {
+    height: 80%;
+    aspect-ratio: auto;
+}
+
 header nav {
     position: relative;
     display: inline-block;
     top: 40px;
     width: 80%;
-    aspect-ratio: auto;
     /* background-color: rgb(247, 127, 127); */
 }
 
