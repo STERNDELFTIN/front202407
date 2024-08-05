@@ -93,7 +93,7 @@ header nav .sub_menu>li>a:hover {
 .contents {
     display: flex;
     width: 100%; height: 200px;
-    background-color: #bcffb5; /* 수정 필요 */
+    /* background-color: #bcffb5; */
     text-align: center; /* 내부 콘텐츠 중앙 정렬 */
     align-items: center;     /* 세로축 중앙 정렬 */
 }
@@ -101,10 +101,8 @@ header nav .sub_menu>li>a:hover {
 .contents>.tabs {
     position: relative;
     width: 33.333%;
-    background-color: #a2f899; /* 수정 필요 */
+    /* background-color: #a2f899; */
 }
-
-
 
 .contents>.tabs>.tab_title li a{
     position: relative;
@@ -115,6 +113,8 @@ header nav .sub_menu>li>a:hover {
     border-right: 1.3px solid black;
     border-left: 1.3px solid black;
     z-index: 980;
+    padding: 5px;
+    font-weight: bold;
 }
 
 .contents>.tabs>.tab_content {
@@ -123,7 +123,14 @@ header nav .sub_menu>li>a:hover {
     background-color: #ffffff;
     border: 1.3px solid black;
     top:50px;
-    margin-top:-1.3px;
+    margin-top:4px;
+}
+.contents>.tabs>.tab_content li a{
+    color: inherit;
+}
+
+.contents>.tabs>.tab_title li a:hover {
+    background-color: #ff9e9e;
 }
 
 .tab_title {
@@ -136,7 +143,7 @@ header nav .sub_menu>li>a:hover {
 /* * */
 .contents>.banner {
     width: 33.333%;
-    background-color: #96fd8a; /* 수정 필요 */
+    /* background-color: #96fd8a; */
 }
 /* * */
 .contents>.shortcut {
@@ -201,5 +208,6 @@ footer .sns {
 footer .sns>a {
     color: inherit;
     font-size: 12px;
+    padding: 5px;
 }
 /* *************************************************** */
