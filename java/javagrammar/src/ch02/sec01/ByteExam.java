@@ -16,9 +16,6 @@ public class ByteExam {
 		System.out.println(var4);
 		System.out.println(var5);
 		System.out.println(var6);
-		
-		long varL = 10000000000L;
-		int varL2 = 1000000000;
 	}
 
 }
