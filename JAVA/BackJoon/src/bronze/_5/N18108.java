@@ -11,6 +11,8 @@ public class N18108 {
 		if (year >= 1000 & year <= 3000) {
 			System.out.println(year - (2541-1998));
 		}
+		
+		sc.close();
 	}
 
 }

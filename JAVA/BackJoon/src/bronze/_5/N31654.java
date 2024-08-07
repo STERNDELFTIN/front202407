@@ -25,6 +25,8 @@ public class N31654 {
 			System.out.println("correct!");
 		else
 			System.out.println("wrong!");
+		
+		sc.close();
 	}
 
 }

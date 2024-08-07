@@ -9,6 +9,8 @@ public class N10926 {
 		
 		String id = sc.next();
 		if ( id.length() <= 50 ) System.out.println(id + "??!");
+		
+		sc.close();
 	}
 
 }

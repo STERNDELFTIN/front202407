@@ -29,6 +29,8 @@ public class N31403 {
 		// 문자열 : A + B - C
 		System.out.println(A + B - C);
 		System.out.println(Integer.parseInt(convertToStr(A) + convertToStr(B)) - C);
+		
+		sc.close();
 	}
 
 }
