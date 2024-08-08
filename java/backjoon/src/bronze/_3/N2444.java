@@ -24,28 +24,32 @@ public class N2444 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		int N = 5;
+		int N = sc.nextInt(); sc.nextLine();
+		int NCopy = N - 1;
 		
-		for (int i = 1; 2 * i - 1 <= N; i++) {
+		for (int i = 1; 2 * i - 1 <= 2 * N - 1; i++) {
+			for (int j = NCopy; j > 0; j--) {
+				System.out.print(" ");
+			}
+			NCopy--;
 			for (int j = 2 * i - 1; j > 0; j--) {
 				System.out.print("*");
 			}
 			System.out.println();
 		}
 		
-		for (int i = 2 * (N-1) - 1; i > 0; i--) {
-			System.out.print("*");
-		}
-		
-		for (int i = 1; (i + 1) / 2 <= N; i++) {
-			for (int j = (i + 1) / 2; j > 0; j--) {
-				System.out.print("*");
+		NCopy = 0;
+		for (int i = 2 * (N-1) - 1; i > 0; i -= 2) {
+			for (int k = 0; k <= NCopy; k++) {
+				System.out.print(" ");
+			}
+			NCopy++;
+			for (int j = i; j > 0; j--) {
+				System.out.print("*");			
 			}
 			System.out.println();
 		}
-		
-		
-		
+
 		sc.close();
 	}
 

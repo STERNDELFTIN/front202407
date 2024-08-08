@@ -17,7 +17,6 @@ public class N3003 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		int chessTotal = 16;
 		int[] chess = { 1, 1, 2, 2, 2, 8 };
 		int[] findChess = new int[6];
 		int[] needChess = new int[6];
